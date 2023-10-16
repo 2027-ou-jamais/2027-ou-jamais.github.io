@@ -1,0 +1,67 @@
+@font-face {
+    font-family: "Fira-Sans";
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+    src: local("FiraSans"), url(font/FiraSans.ttf) format("truetype");
+}
+
+@font-face {
+    font-family: "Garamond";
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+    src: local("Garamond"), url(font/Garamond.ttf) format("truetype");
+}
+
+$family-serif: "Fira-Sans", serif;
+$family-primary: $family-serif;
+
+@import "./_bulma/bulma.sass";
+
+
+
+body {
+    background-color: $light;
+    height: 100vh;
+    transition: all 0.4s ease;
+}
+
+// Some styling 
+
+body .subtitle,
+body .title {
+    color: $dark;
+}
+
+body.dark {
+    background-color: $dark;
+    color: $light;
+}
+
+body.dark .subtitle,
+body.dark .title {
+    color: $light;
+}
+
+.section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    text-align: center;
+}
+
+button{
+    cursor: pointer;
+    border: none;
+    color: $light;
+    padding: .8rem;
+    background: $dark;
+    border-radius: 6px;
+}
+
+body.dark button {
+    background: $light;
+    color: $dark;
+}
