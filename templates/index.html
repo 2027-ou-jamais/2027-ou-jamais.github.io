@@ -1,14 +1,39 @@
 {% extends "base.html" %}
 
 {% block content %}
-<section class="section">
-  <div class="container">
-    <h1 class="title">
-      2027 ou jamais
-    </h1>
-    <h2 class="sub-title">
-      Programme politique citoyen open source et collaboratif d'inspiration écologiste et libertaire pour 2027
-    </h2>
+<section class="hero dark">
+  <div class="hero-body">
+    <div class="container has-text-centered">
+      <h1 class="title">
+        2027 Ou Jamais
+      </h1>
+      <h2 class="subtitle">
+        Programme politique open source, collaboratif et non-affilié d'inspiration écologiste et libertaire pour 2027
+      </h2>
+      <div class="mt-5">
+        <a class="button">Découvrir le programme</a>
+      </div>
+      <div>
+        <p>License CC-BY-SA-4.0 | <a>Source</a></p>
+      </div>
+    </div>
   </div>
+</section>
+<section class="section has-background-dark is-flex-direction-column">
+  <div class="container">
+    <div class="tile is-ancestor">
+      <div class="tile is-parent">
+        <article class="tile is-child box has-background-grey-dark">
+          <p class="title">Exposé des motifs</p>
+          <p class="subtitle">Les grands principes incontournables à partir desquels sont élaborées les propositions</p>
+        </article>
+      </div>
+      <div class="tile is-parent">
+        <article class="tile is-child box has-background-grey-dark">
+          <p class="title">Guide des contributions</p>
+          <p class="subtitle">Toutes les informations nécessaires pour apporter votre contribution au programme</p>
+        </article>
+      </div>
+    </div>
 </section>
 {% endblock content %}

@@ -1,17 +1,17 @@
 @font-face {
-    font-family: "Fira-Sans";
+    font-family: "Fira-Sans-light";
     font-weight: 300;
     font-style: normal;
     font-display: swap;
-    src: local("FiraSans"), url(font/FiraSans.ttf) format("truetype");
+    src: local("FiraSans-light"), url(font/FiraSans-light.ttf) format("truetype");
 }
 
 @font-face {
-    font-family: "Garamond";
+    font-family: "Fira-Sans";
     font-weight: 500;
     font-style: normal;
     font-display: swap;
-    src: local("Garamond"), url(font/Garamond.ttf) format("truetype");
+    src: local("FiraSans"), url(font/FiraSans.ttf) format("truetype");
 }
 
 $family-serif: "Fira-Sans", serif;
@@ -19,10 +19,12 @@ $family-primary: $family-serif;
 
 @import "./_bulma/bulma.sass";
 
-
+html {
+    background-color: $dark;
+}
 
 body {
-    background-color: $light;
+    background-color: $dark;
     height: 100vh;
     transition: all 0.4s ease;
 }
@@ -44,24 +46,24 @@ body.dark .title {
     color: $light;
 }
 
-.section {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 100vh;
-    text-align: center;
-}
-
-button{
-    cursor: pointer;
-    border: none;
-    color: $light;
-    padding: .8rem;
-    background: $dark;
-    border-radius: 6px;
-}
-
 body.dark button {
     background: $light;
     color: $dark;
+}
+
+.navbar, .navbar-dropdown {
+    background-color: $black-ter;
+    color: $grey-lightest;
+}
+
+.navbar-dropdown {
+    border-top: 2px solid #{$dark}
+}
+
+.navbar-divider {
+    background-color: $dark;
+}
+
+.navbar-item, .navbar-link {
+    color: $grey-lightest;
 }
