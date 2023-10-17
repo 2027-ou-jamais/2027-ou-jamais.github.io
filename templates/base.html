@@ -14,7 +14,7 @@
 <body class="dark">
   <nav class="navbar" role="navigation" aria-label="main navigation">
     <div class="navbar-brand">
-      <a class="navbar-item" href="https://bulma.io">
+      <a class="navbar-item" href="/">
         <!-- <img src="https://bulma.io/images/bulma-logo.png" width="112" height="28"> -->
         Accueil
       </a>
@@ -32,11 +32,11 @@
           Programme
         </a>
 
-        <a class="navbar-item">
+        <a class="navbar-item" href="{{ get_url(path="@/reasons/_index.md") }}">
           Motifs
         </a>
   
-        <a class="navbar-item">
+        <a class="navbar-item" href="{{ get_url(path="@/contribute/_index.md") }}">
           Contribuer
         </a>
   
