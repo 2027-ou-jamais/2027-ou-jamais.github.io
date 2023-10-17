@@ -5,4 +5,4 @@ template="page.html"
 draft = false
 +++
 
-# Une réponse hollistique au franchissement des limites planétaires
+# Signer la charte

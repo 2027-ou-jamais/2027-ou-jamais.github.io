@@ -1,5 +1,5 @@
 +++
-title = "Exposé des motifs : Quelles sont les grands principes qui animent les propositions ?"
+title = "Les enjeux auquels doit répondre le programme"
 slug = "reasons"
 template="page.html"
 draft = false

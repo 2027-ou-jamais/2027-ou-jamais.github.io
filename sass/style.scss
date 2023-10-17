@@ -67,3 +67,15 @@ body.dark button {
 .navbar-item, .navbar-link {
     color: $grey-lightest;
 }
+
+.page-main-container h1 {
+    @extend .title;
+}
+
+.page-main-container h2 {
+    @extend .subtitle;
+}
+
+.has-text-inherit {
+    color: inherit;
+}
