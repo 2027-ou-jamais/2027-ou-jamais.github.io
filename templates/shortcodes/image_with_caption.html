@@ -1,0 +1,5 @@
+{% set resized = resize_image(format="webp", path=page.colocated_path ~ img_name, width=width, op="fit_width") %}
+<figure style="text-align:center">
+    <img src="{{ resized.url | safe }}" alt="{{ alt }}">
+    <figcaption>{{ caption }}</figcaption>
+</figure>

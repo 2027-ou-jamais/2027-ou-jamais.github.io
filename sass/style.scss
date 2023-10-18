@@ -7,6 +7,14 @@
 }
 
 @font-face {
+    font-family: "Fira-Sans-Regular";
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+    src: local("Fira-Sans-Regular"), url(font/FiraSans-Regular.ttf) format("truetype");
+}
+
+@font-face {
     font-family: "Fira-Sans";
     font-weight: 500;
     font-style: normal;
@@ -14,7 +22,7 @@
     src: local("FiraSans"), url(font/FiraSans.ttf) format("truetype");
 }
 
-$family-serif: "Fira-Sans", serif;
+$family-serif: "Fira-Sans-Regular", serif;
 $family-primary: $family-serif;
 
 @import "./_bulma/bulma.sass";
@@ -70,6 +78,7 @@ body.dark button {
 
 .page-main-container h1 {
     @extend .title;
+    font-family: "Fira-Sans", serif;
 }
 
 .page-main-container h2 {

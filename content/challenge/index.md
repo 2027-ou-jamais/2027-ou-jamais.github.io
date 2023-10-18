@@ -1,7 +1,6 @@
 +++
 title = "Les enjeux auquels doit répondre le programme"
 slug = "reasons"
-template="page.html"
 draft = false
 +++
 
@@ -10,6 +9,9 @@ draft = false
 Changement climatique = symptome; Dynamique des systèmes; Ensilotage de la pensée
 
 ## Les limites planétaires
+
+{{image_with_caption(img_name="planetary-boundaries-over-time.png", alt="Évolution du système des Limites planétaires", width=500, caption="Évolution du système des Limites planétaires (Credit: Azote for Stockholm Resilience Centre, Stockholm University. Based on Richardson et al. 2023, Steffen et al. 2015, and Rockström et al. 2009)")}}
+<!-- ![Limitaires planétaires dans le temps](planetary-boundaries-over-time.png) -->
 
 Mentionner l'étude + graphique
 
