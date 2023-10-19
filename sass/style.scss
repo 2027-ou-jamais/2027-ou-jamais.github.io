@@ -24,8 +24,13 @@
 
 $family-serif: "Fira-Sans-Regular", serif;
 $family-primary: $family-serif;
+$strong-color: #fff;
 
 @import "./_bulma/bulma.sass";
+
+.content blockquote {
+    background-color: $black-ter
+}
 
 html {
     background-color: $dark;
@@ -59,7 +64,7 @@ body.dark button {
     color: $dark;
 }
 
-.navbar, .navbar-dropdown {
+.navbar, .navbar-dropdown, .navbar-menu {
     background-color: $black-ter;
     color: $grey-lightest;
 }
@@ -87,4 +92,12 @@ body.dark button {
 
 .has-text-inherit {
     color: inherit;
+}
+
+#search-dropdown {
+    display: block;
+    position: absolute;
+    top: 100%;
+    left: auto;
+    right: 0;
 }

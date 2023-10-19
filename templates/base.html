@@ -9,6 +9,11 @@
   <!-- <meta property="og:image" content="https://bevyengine.org/assets/bevy_logo_fill.png" /> -->
   <meta name="description" content="Programme politique open source, collaboratif et non-affilié d'inspiration écologiste et libertaire pour 2027" />
   <link rel="stylesheet" href="{{ get_url(path="style.css") | safe }}">
+  <script src="/elasticlunr.min.js"></script>
+  <script src="/lunr/lunr.stemmer.support.js"></script>
+  <script src="/lunr/lunr.fr.js"></script>
+  <script type="module"> import '/search.js' </script>
+  <script type="module"> import '/main.js' </script>
 </head>
 
 <body class="dark">
@@ -19,14 +24,14 @@
         Accueil
       </a>
   
-      <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+      <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbar-main">
         <span aria-hidden="true"></span>
         <span aria-hidden="true"></span>
         <span aria-hidden="true"></span>
       </a>
     </div>
   
-    <div class="navbar-menu">
+    <div class="navbar-menu" id="navbar-main">
       <div class="navbar-start">
         <a class="navbar-item">
           Programme
@@ -64,10 +69,28 @@
         </div>
       </div>
   
-      <div class="navbar-end">
+      <div class="navbar-end mr-2">
         <div class="navbar-item">
+          <input class="search-bar" type="text" id="search-input" placeholder="Recherche"/>
+          <div class="dropdown-content" id="search-dropdown">
+            <a href="#" class="dropdown-item">
+              Dropdown item
+            </a>
+            <a class="dropdown-item">
+              Other dropdown item
+            </a>
+            <a href="#" class="dropdown-item is-active">
+              Active dropdown item
+            </a>
+            <a href="#" class="dropdown-item">
+              Other dropdown item
+            </a>
+            <hr class="dropdown-divider">
+            <a href="#" class="dropdown-item">
+              With a divider
+            </a>
+          </div>
         </div>
-      </div>
     </div>
   </nav>
   {% block content %} {% endblock %}
