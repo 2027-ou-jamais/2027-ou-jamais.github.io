@@ -42,43 +42,18 @@ body {
     transition: all 0.4s ease;
 }
 
-// Some styling 
-
-body .subtitle,
-body .title {
-    color: $dark;
+body.is-dark {
+    color: $white-ter;
 }
 
-body.dark {
-    background-color: $dark;
-    color: $light;
-}
-
-body.dark .subtitle,
-body.dark .title {
+body.is-dark .subtitle,
+body.is-dark .title {
     color: $light;
 }
 
 body.dark button {
     background: $light;
     color: $dark;
-}
-
-.navbar, .navbar-dropdown, .navbar-menu {
-    background-color: $black-ter;
-    color: $grey-lightest;
-}
-
-.navbar-dropdown {
-    border-top: 2px solid #{$dark}
-}
-
-.navbar-divider {
-    background-color: $dark;
-}
-
-.navbar-item, .navbar-link {
-    color: $grey-lightest;
 }
 
 .page-main-container h1 {
@@ -100,4 +75,12 @@ body.dark button {
     top: 100%;
     left: auto;
     right: 0;
+
+    @include desktop {
+        width: 500px;
+    }
+
+    @include touch {
+        width: 100%;
+    }
 }

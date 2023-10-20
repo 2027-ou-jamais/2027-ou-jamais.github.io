@@ -1,7 +1,8 @@
 +++
 title = "Comment contribuer au programme ?"
-slug = "contribute"
 draft = false
 +++
 
-# Signer la charte
+# Contribuer
+
+Si vous voulez aider à construire le meilleur programme politique pour 2027, n'hésitez pas à nous faire signe

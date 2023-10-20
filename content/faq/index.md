@@ -8,7 +8,7 @@ draft = false
 
 Il n'existe à l'heure actuelle aucun programme politique, du moins accessible publiquement, pouvant répondre aux enjeux développés [ICI](@/challenge/index.md).
 
-La littérature, notamment scientifique, relative à ces sujets s'épaissit de jours en jours, et s'il existe bien des "solutions" ou des "alternatives" plus ou moins développées par les autrices et auteurs, une proposition politique qui ferait du lien et une synthèse tarde à émerger.
+La littérature, notamment scientifique, relative à ces sujets s'épaissit de jours en jours, et s'il existe bien des "solutions" ou des "alternatives" plus ou moins développées par les autrices et auteurs, une proposition politique qui les transformerait en un ensemble de propositions cohérentes et concrètes tarde à émerger.
 
 S'il fallait une phrase d'accroche pour résumer l'intention : "Le programme politique dont la France a besoin mais que personne n'a le courage de porter".
 
@@ -21,4 +21,4 @@ Sans vouloir faire de la double pensée néolibérale, ce programme se veut coll
 * Une plateforme politique visant à faire élire un.e candidat.e
 * Un programme réalisable sans un bouleversement profond de nos instutions, autrement dit une révolution citoyenne
 * Un manifeste anarchiste et encore moins communiste
-* Une association loi 1901 ou une fondation
+* Une association loi 1901, une fondation, une entreprise
