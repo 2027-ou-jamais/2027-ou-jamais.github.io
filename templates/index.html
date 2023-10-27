@@ -1,7 +1,53 @@
 {% extends "base.html" %}
 
 {% block content %}
-<h1 class="title">
-  This is my blog made with Zola.
-</h1>
+<section class="hero dark">
+  <div class="hero-body">
+    <div class="container has-text-centered">
+      <h1 class="title">
+        2027 Ou Jamais
+      </h1>
+      <h2 class="subtitle">
+        Programme politique open source, collaboratif et non-affilié d'inspiration écologiste et libertaire pour 2027
+      </h2>
+      <div class="mt-5">
+        <a class="button">Découvrir le programme</a>
+      </div>
+      <div>
+        <p>License CC-BY-SA-4.0 | <a>Source</a></p>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="section has-background-dark is-flex-direction-column">
+  <div class="container">
+    <div class="tile is-ancestor">
+      <div class="tile is-parent">
+        <article class="tile is-child box has-background-grey-dark">
+          <p class="title"><a class="has-text-inherit" href="{{ get_url(path="@/challenge/index.md") }}">Exposé des enjeux</a></p>
+          <p class="subtitle">À quelles questions fondamentales doivent répondre les propositions</p>
+        </article>
+      </div>
+      <div class="tile is-parent">
+        <article class="tile is-child box has-background-grey-dark">
+          <p class="title"><a class="has-text-inherit" href="{{ get_url(path="@/contribute/index.md") }}">Guide des contributions</a></p>
+          <p class="subtitle">Toutes les informations nécessaires pour apporter votre contribution au programme</p>
+        </article>
+      </div>
+    </div>
+    <div class="tile is-ancestor">
+      <div class="tile is-parent">
+        <article class="tile is-child box has-background-grey-dark">
+          <p class="title"><a class="has-text-inherit" href="{{ get_url(path="@/faq/index.md") }}">Vous avez une question ?</a></p>
+          <p class="subtitle">Peut-être est-elle déjà répondue, vérifiez dans la FAQ</p>
+        </article>
+      </div>
+      <div class="tile is-parent">
+        <article class="tile is-child box has-background-grey-dark">
+          <p class="title"><a class="has-text-inherit" href="{{ get_url(path="@/contribute/index.md") }}">Nous rejoindre sur les réseaux</a></p>
+          <p class="subtitle">DISCORD / BLUESKY?</p>
+        </article>
+      </div>
+    </div>
+</section>
 {% endblock content %}

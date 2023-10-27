@@ -1,0 +1,86 @@
+@font-face {
+    font-family: "Fira-Sans-light";
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+    src: local("FiraSans-light"), url(font/FiraSans-light.ttf) format("truetype");
+}
+
+@font-face {
+    font-family: "Fira-Sans-Regular";
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+    src: local("Fira-Sans-Regular"), url(font/FiraSans-Regular.ttf) format("truetype");
+}
+
+@font-face {
+    font-family: "Fira-Sans";
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+    src: local("FiraSans"), url(font/FiraSans.ttf) format("truetype");
+}
+
+$family-serif: "Fira-Sans-Regular", serif;
+$family-primary: $family-serif;
+$strong-color: #fff;
+
+@import "./_bulma/bulma.sass";
+
+.content blockquote {
+    background-color: $black-ter
+}
+
+html {
+    background-color: $dark;
+}
+
+body {
+    background-color: $dark;
+    height: 100vh;
+    transition: all 0.4s ease;
+}
+
+body.is-dark {
+    color: $white-ter;
+}
+
+body.is-dark .subtitle,
+body.is-dark .title {
+    color: $light;
+}
+
+body.dark button {
+    background: $light;
+    color: $dark;
+}
+
+.page-main-container h1 {
+    @extend .title;
+    font-family: "Fira-Sans", serif;
+}
+
+.page-main-container h2 {
+    @extend .subtitle;
+}
+
+.has-text-inherit {
+    color: inherit;
+}
+
+#search-dropdown {
+    display: block;
+    position: absolute;
+    top: 100%;
+    left: auto;
+    right: 0;
+
+    @include desktop {
+        width: 500px;
+    }
+
+    @include touch {
+        width: 100%;
+    }
+}

@@ -1,0 +1,12 @@
+{% set resized = resize_image(format="webp", path=page.colocated_path ~ img_name, width=width, op="fit_width") %}
+<div class="columns is-mobile is-centered is-vcentered">
+    <div class="column">
+        <a href="{{ get_url(path=page.colocated_path ~ img_name) }}" target="_blank">
+            <img src="{{ resized.url | safe }}" alt="{{ alt }}">
+        </a>
+    </div>
+    <div class="column">
+        <span class="subtitle">{{ caption }}</span>
+        <p><small>Cliquer sur l'image pour aggrandir</small></p>
+    </div>
+</div>
