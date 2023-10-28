@@ -16,7 +16,7 @@ Il est alors urgent de réduire rapidement notre empreinte écologique, c'est à
 
 Toute la subtilité de cette descente matérielle, c'est de pouvoir **en même temps** "satisfaire les besoins de l'existence". Il faudrait donc dans un premier temps déterminer collectivement quels sont ces besoins, et pour chacun de ces besoins avoir un outil qui nous permettrait de calculer si sa réalisation est conforme à la proposition de soutenabilité sur le temps long décrite précédemment. 
 
-Autant dire que cela est quasiment impossible à savoir, nous baserons donc toutes nos propositions dans une volonté de réduction de notre empreinte écologique sans pour autant prétendre que cela sera suffisant. Bien sûr elles seront argumentées avec des données factuelles issues d'études scientifiques mais aussi avec de la prospective, dans l'idée de prévoir le pire afin qu'il ne se réalise pas.
+Autant dire que cela rajouterai de la complexité à la complexité, ainsi pour rester dans un cadre de réflexion convivial nous baserons donc toutes nos propositions dans une volonté de réduction de notre empreinte écologique sans pour autant prétendre que cela sera suffisant. Bien sûr elles seront argumentées avec des données factuelles issues d'études scientifiques mais aussi avec de la prospective, dans l'idée de prévoir le pire afin qu'il ne se réalise pas.
 
 # Une forme d'organisation démocratique ?
 
@@ -29,15 +29,15 @@ Cela dit, nous ne sommes pas dupes, la démocratie est l'ennemi du fascime et du
 # Les bases communes
 
 Rédiger un programme qui répond à la problématique nécessite un cadre de travail commun et donc un cadre de connaissance partagé par ses contributeurs.
-Pour cela il existe une bonne quantité de concept à apréhender pour ne pas tomber dans des écueils simplistes lors de la rédaction des propositions.
+Pour cela il existe une bonne quantité de concept à appréhender pour ne pas tomber dans des écueils simplistes lors de la rédaction des propositions.
 Voici une liste non-exhaustive :
 
-* Le changement climatique est un symptôme et non un problème. Le problème est notre civilisation.
-* Les limites planétaires, l'anthropocène, la grande accélération, l'effet rebond, l'hypothèse de la reine rouge sont des concepts à connaitre pour comprendre les enjeux
+* Le changement climatique est un symptôme et non un problème. Le problème est notre civilisation (blanche, occidentale, thermo-industrielle...).
+* Les limites planétaires, l'anthropocène, la grande accélération, l'effet rebond, l'hypothèse de la reine rouge sont des concepts à connaitre pour éviter de formuler des propositions qui n'iraient pas dans le sens d'une réduction de notre empreinte écologique.
 * La transition énergétique n'a jamais été démontrée, il existe des modèles (qui sont des réductions de la réalité comme RTE, Negawatt), mais les données actuelles tendent à montrer qu'elle n'est pas possible
 * La pensée scientifique a longtemps été ensilotée, il est nécessaire de croiser les disciplines scientifiques afin d'en tirer une pensée systémique
 * Les sciences sociales sont au moins autant nécessaires que les sciences dites "dures" pour pouvoir formuler une nouvelle forme d'organisation de la société
 * L'écologie est incompatible avec l'impérialisme économique
 * L'humain est universel, sa condition ne l'est pas. 
 * L'humain est un animal hétoronome (en dépendance) de son milieu de vie mais peut artificiellement créer de l'autonomie (selon une zone géographique ou une ressource par exemple)
-* La technologie précède l'usage et n'est pas une "solution au changement climatique". Elle peut servir à la marge et il faut toujours conserver un regard techno-critique.
+* La technologie précède l'usage et n'est pas une "solution au changement climatique". Elle pourrait peut-être servir à la marge et il faut toujours conserver un regard techno-critique.
