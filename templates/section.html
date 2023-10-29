@@ -1,8 +1,14 @@
 {% extends "base.html" %}
 
+{% import "macros/draft.html" as draft_macros %}
+
 {% block content %}
+
+{% if section.extra.custom_draft %}
+    {{ draft_macros::draft() }}
+{% endif %}
 <section class="section">
-    <div class="container section-main-container">
+    <div class="container section-main-container content">
         {{ section.content | safe }}
     </div>
 </section>

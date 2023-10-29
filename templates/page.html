@@ -1,6 +1,13 @@
 {% extends "base.html" %}
 
+{% import "macros/draft.html" as draft_macros %}
+
 {% block content %}
+
+{% if page.extra.custom_draft %}
+    {{ draft_macros::draft() }}
+{% endif %}
+
 <section class="section">
     <div class="container page-main-container content">
         {{ page.content | safe }}

@@ -22,3 +22,13 @@ Sans vouloir faire de la double pensée néolibérale, ce programme se veut coll
 * Un programme réalisable sans un bouleversement profond de nos instutions, autrement dit une révolution citoyenne
 * Un manifeste anarchiste et encore moins communiste
 * Une association loi 1901, une fondation, une entreprise
+
+# Comment puis-je intégrer mes propositions sans pour autant apprendre à utiliser Git
+
+Git est le système de versionnage de la plateforme, c'est à dire le système qui nous permet de garder les traces de toutes les modifications ayant lieu sur la plateforme. Si vous êtes allergique à l'informatique, il vous faudra alors **trouver une personne qui prendra la responsabilité de porter vos propositions**. Pour cela rien de plus simple, rendez-vous dans le discord sur le channel approprié.
+Malgré tout nous décourageons ce transfert de responsabilité car :
+* Vous ne serez pas forcément en mesure de défendre vos propositions ou de les modifier
+* Vous ne serez pas forcément crédité comme l'auteur/autrice de vos propositions
+* Cela rajoute du travail supplémentaire à d'autre personnes
+
+> Alors merci de prendre le temps de vous former en suivant [le guide des contributions](../../contribute/propositions)
