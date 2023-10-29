@@ -56,12 +56,12 @@ body.dark button {
     color: $dark;
 }
 
-.page-main-container h1 {
+.page-main-container h1, .section-main-container h1 {
     @extend .title;
     font-family: "Fira-Sans", serif;
 }
 
-.page-main-container h2 {
+.page-main-container h2, .section-main-container h2 {
     @extend .subtitle;
 }
 
@@ -83,4 +83,8 @@ body.dark button {
     @include touch {
         width: 100%;
     }
+}
+
+.draft-container {
+    background-color: purple;
 }
