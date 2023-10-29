@@ -2,7 +2,7 @@
 name: Amélioration technique
 about: Suggérer des améliorations pour l'utilisation de la plateforme
 title: ''
-labels: C-Design-UX
+labels: C-Design-UX, S-Besoin-Triage
 assignees: ''
 
 ---
