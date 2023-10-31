@@ -16,3 +16,15 @@ Avant tout, merci de lire [le Code de conduite](https://2027-ou-jamais.github.io
 * [Guide des contributions](https://2027-ou-jamais.github.io/contribute/)
 * [Discord](https://discord.gg/PARjP7yB)
 * [Github Discussions](https://github.com/2027-ou-jamais/2027-ou-jamais.github.io/discussions)
+
+# Zola
+
+2027 ou jamais est construit en utilisant le générateur de site static nommé Zola écrit avec le langage Rust.
+
+Pour faire vos modifications en local:
+
+1. [Télécharger Zola](https://www.getzola.org/).
+2. Cloner le repository et entrer dans le dossier nouvellement créé:
+   * `git clone https://github.com/2027-ou-jamais/2027-ou-jamais.github.io.git`
+   * `cd 2027-ou-jamais`
+3. Démarrer le serveur Zola avec `zola serve`.
