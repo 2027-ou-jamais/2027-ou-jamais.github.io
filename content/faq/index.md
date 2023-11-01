@@ -25,10 +25,10 @@ Sans vouloir faire de la double pensée néolibérale, ce programme se veut coll
 
 # Comment puis-je intégrer mes propositions sans pour autant apprendre à utiliser Git
 
-Git est le système de versionnage de la plateforme, c'est à dire le système qui nous permet de garder les traces de toutes les modifications ayant lieu sur la plateforme. Si vous êtes allergique à l'informatique, il vous faudra alors **trouver une personne qui prendra la responsabilité de porter vos propositions**. Pour cela rien de plus simple, rendez-vous dans le discord sur le channel approprié.
-Malgré tout nous décourageons ce transfert de responsabilité car :
-* Vous ne serez pas forcément en mesure de défendre vos propositions ou de les modifier
+> Merci de lire [le guide des contributions](../../contribute/propositions)
+
+Git est le système de versionnage de la plateforme, c'est à dire le système qui nous permet de garder les traces de toutes les modifications ayant lieu sur la plateforme. Si vous êtes allergique à l'informatique, il vous faudra alors **trouver une personne qui prendra la responsabilité d'intégrer vos propositions**. Pour cela rien de plus simple, rendez-vous dans le discord sur le channel approprié et signalez la discussion.
+
+Malgré tout nous vous encourageons à vous former à git sinon :
 * Vous ne serez pas forcément crédité comme l'auteur/autrice de vos propositions
 * Cela rajoute du travail supplémentaire à d'autre personnes
-
-> Alors merci de prendre le temps de vous former en suivant [le guide des contributions](../../contribute/propositions)

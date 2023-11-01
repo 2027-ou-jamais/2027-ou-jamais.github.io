@@ -8,29 +8,37 @@ custom_draft=true
 
 > Avant toute chose, merci de lire le [Code de Conduite](@/contribute/code-of-conduct.md)
 
-Il existe plusieurs niveaux de contribution au programme.
-* Niveau 1 : Mettre un sujet sur la table et lancer une discussion. Pour cela vous pouvez ouvrir faire un tour sur le [Discord](https://discord.gg/PARjP7yB), ou bien si vous avez un compte github, parcourez les [discussions](https://github.com/2027-ou-jamais/2027-ou-jamais.github.io/discussions)
-* Niveau 2* : Participer à l'ammendement des propositions faites par d'autres. Pour cela parcourez les Pull request et commentez directement.
-* Niveau 3* : Créez vos propositions. A partir d'un Fork du projet, faites les modifications nécessaires et quand elles vous semblent satisfaisantes, faites une PR
+Il existe trois manières de contribuer au programme.
 
-<p><small>* Nécessite un compte github</small></p>
+# 1. Mettre un sujet sur la table et lancer une discussion
 
-> Si vous ne voulez pas utiliser Git, CF [la question dans la FAQ](/faq/#comment-puis-je-integrer-mes-propositions-sans-pour-autant-apprendre-a-utiliser-git)
+Pour cela vous pouvez faire un tour sur le [Discord](https://discord.gg/PARjP7yB), ou bien si vous avez un compte github, parcourez les [discussions](https://github.com/2027-ou-jamais/2027-ou-jamais.github.io/discussions).
 
-## Niveau 1 : Mettre un sujet sur la table et lancer une discussion
+Si en parcourant le programme ou les discussions vous vous apercevez qu'un sujet n'est pas traité, mais que pour autant vous n'avez pas envie d'écrire des propositions, partagez vos reflexions dans le discord sur un chan approprié.
 
-Si en parcourant le programme vous vous apercevez qu'un sujet n'est pas traité, mais que pour autant vous n'avez pas envie de plus contribuer, faites un tour sur discord ou les dicussions github et partagez vos reflexions.
-
-## Niveau 2 : Participer à l'ammendement des propositions faites par d'autres
+# 2. Participer à l'élaboration des propositions (nécessite un compte github)
 
 * [Créer son compte Github](https://docs.github.com/fr/get-started/signing-up-for-github/signing-up-for-a-new-github-account#signing-up-for-a-new-account)
-* [Parcourir les pull request et insérer des commentaires](https://docs.github.com/fr/pull-requests/collaborating-with-pull-requests/reviewing-changes-in-pull-requests/commenting-on-a-pull-request)
 
-## Niveau 3 : Créez vos propositions
+Vous pouvez parcourir les discussions de type [Propositions](https://github.com/2027-ou-jamais/2027-ou-jamais.github.io/discussions/categories/propositions), participer aux discussions et même créer la votre.
+**Restez concis dans vos propositions**, vous pouvez rajouter à la fin la liste des sources et justifier plus longuement la pertinance de vos propositions selon [le modèle recommandé](https://github.com/2027-ou-jamais/2027-ou-jamais.github.io/discussions/8).
+
+> Si vous créez une proposition, vous vous engagez à être actif dans son élaboration jusqu'à ce qu'elle soit intégrée ou rejetée.
+> 
+> Si vous ne pouvez plus tenir cet engagement, merci de prévenir une modérateur pour reparenter la proposition. 
+
+
+# 3. Intégrer des propositions dans le programme (nécessite un compte github + savoir utiliser Git + avoir des notions de markdown)
+
+Lorsque vous considérez qu'une proposition est suffisamment mure pour figurer dans le programme, vous pouvez faire le nécessaire pour l'intégrer dans le code.
+
+Lorsque le format de contribution sera stabilisé nous proposerons un véritable tutoriel pour que chacun puisse se former.
+
+En attendant, voici une liste de liens qui peuvent vous aider. 
 
 * [Installer Zola](https://www.getzola.org/documentation/getting-started/installation/)
 * [Forker le repo](https://docs.github.com/fr/get-started/quickstart/contributing-to-projects#cloning-a-fork)
 * [Intaller et l'application Github](https://desktop.github.com/) ou [Installer et utiliser Git pour le terminal](https://git-scm.com/) pour cloner votre repo, faire vos branches, demandez une PR...
 * [Lancer l'application en local pour voir ses modifications](https://www.getzola.org/documentation/getting-started/cli-usage/#serve)
+* [Créer une issue](https://github.com/2027-ou-jamais/2027-ou-jamais.github.io/issues/new/choose) en utilisant le modèle approprié
 
-{{ youtube(id="eXF0epLeCgo", class="has-text-centered") }}
