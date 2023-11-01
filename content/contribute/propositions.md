@@ -41,4 +41,3 @@ En attendant, voici une liste de liens qui peuvent vous aider.
 * [Intaller et l'application Github](https://desktop.github.com/) ou [Installer et utiliser Git pour le terminal](https://git-scm.com/) pour cloner votre repo, faire vos branches, demandez une PR...
 * [Lancer l'application en local pour voir ses modifications](https://www.getzola.org/documentation/getting-started/cli-usage/#serve)
 * [Créer une issue](https://github.com/2027-ou-jamais/2027-ou-jamais.github.io/issues/new/choose) en utilisant le modèle approprié
-
