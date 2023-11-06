@@ -32,7 +32,7 @@ Rédiger un programme qui répond à la problématique nécessite un cadre de tr
 Pour cela il existe une bonne quantité de concept à appréhender pour ne pas tomber dans des écueils simplistes lors de la rédaction des propositions.
 Voici une liste non-exhaustive :
 
-* Le changement climatique est un symptôme et non un problème. Le problème est notre civilisation (blanche, occidentale, thermo-industrielle...).
+* Le changement climatique est un symptôme et non un problème. Le problème est notre civilisation (thermo-)industrielle.
 * Les limites planétaires, l'anthropocène, la grande accélération, l'effet rebond, l'hypothèse de la reine rouge sont des concepts à connaitre pour éviter de formuler des propositions qui n'iraient pas dans le sens d'une réduction de notre empreinte écologique.
 * La transition énergétique n'a jamais été démontrée, il existe des modèles (qui sont des réductions de la réalité comme RTE, Negawatt), mais les données actuelles tendent à montrer qu'elle n'est pas possible
 * La pensée scientifique a longtemps été ensilotée, il est nécessaire de croiser les disciplines scientifiques afin d'en tirer une pensée systémique
