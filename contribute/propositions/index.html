@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="utf-8">
+  <title>2027 ou jamais</title>
+  <meta name='viewport' content="width=device-width, initial-scale=1" />
+  <meta property="og:type" content="website" />
+  <!-- <meta property="og:image" content="https://bevyengine.org/assets/bevy_logo_fill.png" /> -->
+  <meta name="description" content="Programme politique open source, collaboratif et non-affilié d'inspiration écologiste et libertaire pour 2027" />
+  <link rel="stylesheet" href="https://2027-ou-jamais.github.io/style.css">
+  <script src="/elasticlunr.min.js"></script>
+  <script src="/lunr/lunr.stemmer.support.js"></script>
+  <script src="/lunr/lunr.fr.js"></script>
+  <script type="module"> import '/search.js' </script>
+  <script type="module"> import '/main.js' </script>
+</head>
+
+<body class="is-dark">
+  <nav class="navbar is-black " role="navigation" aria-label="main navigation">
+    <div class="navbar-brand">
+      <a class="navbar-item" href="/">
+        Accueil
+      </a>
+  
+      <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbar-main">
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+      </a>
+    </div>
+  
+    <div class="navbar-menu" id="navbar-main">
+      <div class="navbar-start">
+        <a class="navbar-item" href="https://2027-ou-jamais.github.io/programme/">
+          Programme
+        </a>
+
+        <a class="navbar-item" href="https://2027-ou-jamais.github.io/challenge/">
+          Enjeux
+        </a>
+  
+        <a class="navbar-item" href="https://2027-ou-jamais.github.io/contribute/">
+          Contribuer
+        </a>
+
+        <a class="navbar-item" href="https://2027-ou-jamais.github.io/faq/">
+          FAQ
+        </a>
+  
+        <div class="navbar-item has-dropdown is-hoverable">
+          <a class="navbar-link">
+            Autres
+          </a>
+  
+          <div class="navbar-dropdown is-dark">
+            <a class="navbar-item" href="https://2027-ou-jamais.github.io/about/">
+              À propos
+            </a>
+            <a class="navbar-item" href="mailto:lecamphrier@pm.me">
+              Contact
+            </a>
+            <hr class="navbar-divider">
+            <a class="navbar-item" href="https://github.com/2027-ou-jamais/2027-ou-jamais.github.io/issues" target="_blank">
+              Signaler une erreur
+            </a>
+          </div>
+        </div>
+      </div>
+  
+      <div class="navbar-end mr-2">
+        <div class="navbar-item">
+          <figure class="image mx-2">
+            <a href="https://github.com/2027-ou-jamais/2027-ou-jamais.github.io" title="Dépôt github" target="_blank">
+              <img class="is-rounded" src="/images/logo/github-white.svg" alt="Logo Github">
+            </a>
+          </figure>
+        </div>
+        <div class="navbar-item px-0">
+          <input class="input is-primary" type="text" id="search-input" placeholder="Recherche"/>
+          <div class="dropdown-content is-hidden" id="search-dropdown">
+          </div>
+        </div>
+    </div>
+  </nav>
+  
+
+
+    
+<div class="draft-container py-1 pl-2">
+    <small>Cette page est incomplète et sujette à des modifications</small>
+</div>
+
+
+
+<section class="section">
+    <div class="container page-main-container content">
+        <blockquote>
+<p>Avant toute chose, merci de lire le <a href="https://2027-ou-jamais.github.io/contribute/code-of-conduct/">Code de Conduite</a></p>
+</blockquote>
+<p>Il existe trois manières de contribuer au programme.</p>
+<h1 id="1-mettre-un-sujet-sur-la-table-et-lancer-une-discussion">1. Mettre un sujet sur la table et lancer une discussion</h1>
+<p>Pour cela vous pouvez faire un tour sur le <a rel="noopener" target="_blank" href="https://discord.gg/PARjP7yB">Discord</a>, ou bien si vous avez un compte github, parcourez les <a rel="noopener" target="_blank" href="https://github.com/2027-ou-jamais/2027-ou-jamais.github.io/discussions">discussions</a>.</p>
+<p>Si en parcourant le programme ou les discussions vous vous apercevez qu’un sujet n’est pas traité, mais que pour autant vous n’avez pas envie d’écrire des propositions, partagez vos reflexions dans le discord sur un chan approprié.</p>
+<h1 id="2-participer-a-l-elaboration-des-propositions-necessite-un-compte-github">2. Participer à l’élaboration des propositions (nécessite un compte github)</h1>
+<ul>
+<li><a rel="noopener" target="_blank" href="https://docs.github.com/fr/get-started/signing-up-for-github/signing-up-for-a-new-github-account#signing-up-for-a-new-account">Créer son compte Github</a></li>
+</ul>
+<p>Vous pouvez parcourir les discussions de type <a rel="noopener" target="_blank" href="https://github.com/2027-ou-jamais/2027-ou-jamais.github.io/discussions/categories/propositions">Propositions</a>, participer aux discussions et même créer la votre.
+<strong>Restez concis dans vos propositions</strong>, vous pouvez rajouter à la fin la liste des sources et justifier plus longuement la pertinance de vos propositions selon <a rel="noopener" target="_blank" href="https://github.com/2027-ou-jamais/2027-ou-jamais.github.io/discussions/8">le modèle recommandé</a>.</p>
+<blockquote>
+<p>Si vous créez une proposition, vous vous engagez à être actif dans son élaboration jusqu’à ce qu’elle soit intégrée ou rejetée.</p>
+<p>Si vous ne pouvez plus tenir cet engagement, merci de prévenir une modérateur pour reparenter la proposition. </p>
+</blockquote>
+<h1 id="3-integrer-des-propositions-dans-le-programme-necessite-un-compte-github-savoir-utiliser-git-avoir-des-notions-de-markdown">3. Intégrer des propositions dans le programme (nécessite un compte github + savoir utiliser Git + avoir des notions de markdown)</h1>
+<p>Lorsque vous considérez qu’une proposition est suffisamment mure pour figurer dans le programme, vous pouvez faire le nécessaire pour l’intégrer dans le code.</p>
+<p>Lorsque le format de contribution sera stabilisé nous proposerons un véritable tutoriel pour que chacun puisse se former.</p>
+<p>En attendant, voici une liste de liens qui peuvent vous aider. </p>
+<ul>
+<li><a rel="noopener" target="_blank" href="https://www.getzola.org/documentation/getting-started/installation/">Installer Zola</a></li>
+<li><a rel="noopener" target="_blank" href="https://docs.github.com/fr/get-started/quickstart/contributing-to-projects#cloning-a-fork">Forker le repo</a></li>
+<li><a rel="noopener" target="_blank" href="https://desktop.github.com/">Intaller et l’application Github</a> ou <a rel="noopener" target="_blank" href="https://git-scm.com/">Installer et utiliser Git pour le terminal</a> pour cloner votre repo, faire vos branches, demandez une PR…</li>
+<li><a rel="noopener" target="_blank" href="https://www.getzola.org/documentation/getting-started/cli-usage/#serve">Lancer l’application en local pour voir ses modifications</a></li>
+<li><a rel="noopener" target="_blank" href="https://github.com/2027-ou-jamais/2027-ou-jamais.github.io/issues/new/choose">Créer une issue</a> en utilisant le modèle approprié</li>
+</ul>
+
+    </div>
+</section>
+
+</body>
+
+</html>

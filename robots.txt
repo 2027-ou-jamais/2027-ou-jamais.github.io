@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+Allow: /
+Sitemap: https://2027-ou-jamais.github.io/sitemap.xml
